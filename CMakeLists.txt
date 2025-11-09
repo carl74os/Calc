@@ -6,9 +6,6 @@ set(CMAKE_C_STANDARD 11)
 set(CMAKE_C_STANDARD_REQUIRED True)
 set(CMAKE_C_COMPILER "/opt/sparc-bcc-2.3.1-gcc/bin/sparc-gaisler-elf-gcc")
 
-# Include QEMU 
-include(qemu.cmake)
-
 # Include header files
 include_directories(include)
 
